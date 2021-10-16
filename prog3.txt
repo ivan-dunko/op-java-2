@@ -1,0 +1,41 @@
+main{
+	int a = 0;
+	while (5 > a){
+		print("a is less than 5");
+		print(a);
+		a++;
+	}
+	
+	int vis = 0;
+	#label;
+	if (vis > 1){
+		if (2 > 1){
+			print("2 > 1");
+		}
+		int c = 0;
+		while (2 > c){
+			print(c);
+			c++;
+		}
+		goto label2;
+	}
+	a = -5;
+	int b = 0;
+	while (b > a){
+		print("a is less than 5");
+		print(a);
+		a++;
+	}
+
+	string s = "abc";
+	print(s);
+
+	if (s > "aaa"){
+		print("s > \"aaa\"");
+	}
+	
+	vis++;
+	goto label;
+	#label2;
+	print("end");
+}
